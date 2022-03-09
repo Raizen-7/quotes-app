@@ -33,8 +33,8 @@ const QuoteBox = () => {
          </div>
          <div>
          <p>{phrare.author}</p>
-        <button onClick={changePhrase}>
-        <i className="fa-solid fa-angle-right"></i>
+        <button onClick={changePhrase} style={{ color : color }} >
+        <i className="fa-solid fa-angle-right" ></i>
         </button>
         </div>
         </div>
